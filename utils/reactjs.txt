@@ -1,3 +1,11 @@
+//Conceitos
+
+1) Componentes - Basicamente uma função que isola um pedaço da aplicação
+2) Estado - Para manipular variáveis que serão usadas em componentes
+3) Propriedades - São os atributos utilizados nas tags HTML e componentes (nesse caso usando props ou desestruturando usando {} )
+Obs: Todo componente de rotas herda do react-router-dom uma propriedade chamada history (utilizado para fazer a navegação). A
+propriedade math possui todos os parâmetros que foram passados para a rota.
+
 //Para criar o projeto sem se preocupar com configuração de webpack e babel pois o comando create react-app já faz tudo isso
 yarn create react-app <nome projeto>. ie: yarn create react-app frontend
 
@@ -14,10 +22,11 @@ yarn test
     Starts the test runner.
 
 yarn eject
-    Removes this tool and copies build dependencies, configuration files
+    Removes this tool and copies build dependencies, configuration
     and scripts into the app directory. If you do this, you can’t go back!
 
 // Dependëncias
 yarn add react-router-dom - Para gerenciar as rotas entre páginas (versão web)
+yarn add axios - Para manipular APIs
 
 
