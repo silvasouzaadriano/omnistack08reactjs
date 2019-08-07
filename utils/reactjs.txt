@@ -17,3 +17,7 @@ yarn eject
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
 
+// Dependëncias
+yarn add react-router-dom - Para gerenciar as rotas entre páginas (versão web)
+
+
