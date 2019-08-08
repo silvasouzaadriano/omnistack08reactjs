@@ -4,7 +4,7 @@
 2) Estado - Para manipular variáveis que serão usadas em componentes
 3) Propriedades - São os atributos utilizados nas tags HTML e componentes (nesse caso usando props ou desestruturando usando {} )
 Obs: Todo componente de rotas herda do react-router-dom uma propriedade chamada history (utilizado para fazer a navegação). A
-propriedade math possui todos os parâmetros que foram passados para a rota.
+propriedade match possui todos os parâmetros que foram passados para a rota.
 
 //Para criar o projeto sem se preocupar com configuração de webpack e babel pois o comando create react-app já faz tudo isso
 yarn create react-app <nome projeto>. ie: yarn create react-app frontend
