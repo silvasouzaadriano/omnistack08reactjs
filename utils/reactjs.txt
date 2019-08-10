@@ -29,4 +29,7 @@ yarn eject
 yarn add react-router-dom - Para gerenciar as rotas entre páginas (versão web)
 yarn add axios - Para manipular APIs
 
+//Funcionalidade Match
+yarn add socket.io-client
+
 
